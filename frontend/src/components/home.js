@@ -5,7 +5,7 @@ return(
     <main className= 'mt-4'>
     <div className= 'container'>
     {/* Latest Products */}
-    <h4 className="mb-3">Latest Products <a href='#' className='float-end btn btn-sm btn-dark'> View All Products <i className="fa-solid fa-arrow-right-long"></i></a></h4>
+    <h4 className="mb-3">Latest Products <Link to='/products' className='float-end btn btn-sm btn-dark'> View All Products <i className="fa-solid fa-arrow-right-long"></i></Link></h4>
     <div className="row mb-4">
         {/* Product box */}
         <div className="col-12 col-md-3 mb-4">
